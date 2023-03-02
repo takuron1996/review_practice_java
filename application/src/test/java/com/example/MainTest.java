@@ -56,4 +56,12 @@ public class MainTest {
     public void calcTest6() {
         assertEquals(Main.calc(-5, 0.5), -3);
     }
+
+    /**
+     * 割引率がマイナスの場合のテスト
+     */
+    @Test
+    public void calcTest7() {
+        assertEquals(Main.calc(10, -1), 20);
+    }
 }
