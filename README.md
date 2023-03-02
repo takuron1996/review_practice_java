@@ -7,8 +7,8 @@
 
 ## レビュー対象
 
-- ./src/main/java/com/example/Main.java
-- ./test/java/com/example/MainTest.java
+- ./application/src/main/java/com/example/Main.java
+- ./application/test/java/com/example/MainTest.java
 
 ## レビュー対象外
 
